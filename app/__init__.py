@@ -22,10 +22,16 @@ def get_env_variable(name):
         raise Exception(message)
 
 
-DB_NAME = get_env_variable('DB_NAME')
-DB_USER = get_env_variable('DB_USER')
-DB_PASS = get_env_variable('DB_PASS')
-DB_ADDR = get_env_variable('DB_ADDR')
+DB_NAME = 'compose'
+DB_USER = 'admin'
+DB_PASS = 'INHWLZBYUWGHWNVO'
+DB_ADDR = 'sl-us-south-1-portal.43.dblayer.com:16139'
+
+
+# DB_NAME = get_env_variable('DB_NAME')
+# DB_USER = get_env_variable('DB_USER')
+# DB_PASS = get_env_variable('DB_PASS')
+# DB_ADDR = get_env_variable('DB_ADDR')
 
 # Create Flask application
 app = Flask(__name__)
