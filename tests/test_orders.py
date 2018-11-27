@@ -13,8 +13,8 @@ from app import app, get_env_variable
 
 DB_NAME = 'compose'
 DB_USER = 'admin'
-DB_PASS = 'INHWLZBYUWGHWNVO'
-DB_ADDR = 'sl-us-south-1-portal.43.dblayer.com:16139'
+DB_PASS = 'TGINMCKDVWFYLRGB'
+DB_ADDR = 'sl-us-south-1-portal.42.dblayer.com:16266'
 
 
 # DB_NAME = get_env_variable('DB_NAME')
