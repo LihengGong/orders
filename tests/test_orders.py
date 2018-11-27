@@ -22,7 +22,7 @@ from app import app, get_env_variable
 # DB_PASS = get_env_variable('DB_PASS')
 # DB_ADDR = get_env_variable('DB_ADDR')
 
-DATABASE_URI = 'postgresql+psycopg2://{user}:{pw}@{url}/{db}'.format(user=DB_USER,pw=DB_PASS,url=DB_ADDR,db=DB_NAME)
+DATABASE_URI = 'postgres://{user}:{pw}@{url}/{db}'.format(user=DB_USER,pw=DB_PASS,url=DB_ADDR,db=DB_NAME)
 
 ######################################################################
 #  T E S T   C A S E S
