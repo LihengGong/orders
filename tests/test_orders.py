@@ -11,10 +11,10 @@ import os
 from app.models import Order, OrderItem, DataValidationError, db
 from app import app, get_env_variable
 
-DB_NAME = 'compose'
-DB_USER = 'admin'
-DB_PASS = 'INHWLZBYUWGHWNVO'
-DB_ADDR = 'sl-us-south-1-portal.43.dblayer.com:16139'
+# DB_NAME = 'compose'
+# DB_USER = 'admin'
+# DB_PASS = 'INHWLZBYUWGHWNVO'
+# DB_ADDR = 'sl-us-south-1-portal.43.dblayer.com:16139'
 
 
 # DB_NAME = get_env_variable('DB_NAME')
